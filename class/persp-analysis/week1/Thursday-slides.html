@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Introduction to Computational Social Science, Day 2</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="MACS 30000   University of Chicago" />
+    <script src="Thursday-slides_files/header-attrs/header-attrs.js"></script>
+    <link href="Thursday-slides_files/remark-css/default.css" rel="stylesheet" />
+    <link href="Thursday-slides_files/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Introduction to Computational Social Science, Day 2
+]
+.author[
+### <a href="https://canvas.uchicago.edu/courses/30852">MACS 30000</a> <br /> University of Chicago
+]
+
+---
+
+
+
+
+&lt;!--
+Welcome to Perspectives on Computational Analysis! In this video I will outline the basic structure of the perspectives sequence and what you can expect to learn in this class, as well as offer some tips to be successful.
+--&gt;
+
+# Agenda
+
+1. Student Introduction (5 mins)
+1. Discussion on the readings (15 mins)
+    * What is your take on computational social science? 
+1. Logistics (5 mins
+    * Plans for next week 
+    * Participation grade
+1. Political Ideology Exercise 
+    * Group discussion (15 mins)
+    * Presentation and QA (40 mins)
+
+---
+
+# Readings for Today
+
+1. Watts, D. J. (2007). A twenty-first century science.
+1. Lazer et. al. (2009) Computational Social Science.
+1. Evans, J. (2020). Social computing unhinged.
+
+--
+
+## Discussion question: 
+
+1. What is computational social science?
+
+1. What are its potential strengths and weaknesses (or challenges)? 
+
+
+---
+
+## Is a Data-Driven Social Science Possible?
+
+[Let the data speak for itself?](https://www.google.com/search?q=let+the+data+speak+for+itself)
+
+
+---
+
+# Test-run a New Participation Model
+
+1. For each Thursday's discussion, I will group you into groups of 3s. 
+1. I will try to randomize group assignment.
+1. During group discussion, each group will elect a best answer for the assigned exercise.
+1. After we reconvene, each group will have a chance to present their best answer. 
+  * I will give each group a chance today but may not have time to do so every week. 
+1. Vote your favorite answer question by the end. 
+1. Entry for today: [PollEv.com/shilinjia752](https://pollev.com/shilinjia752)
+
+---
+
+## Voting Rules
+
+* One person one vote. 
+* Do not vote for yourselves.
+* Must submit your vote with your real name. 
+* Must vote by 3:30pm on the same day. 
+* I will announce the final winners after class. 
+
+--
+
+## Grading
+* Group(s) with the highest votes receives Check Plus (12/10) for the week. 
+* Every other student receives a Check (10/10) if meeting one of the following conditions:
+  + speaking up in class on either Tuesday or Thursday 
+  + your group gets a chance to present
+* The rest will receive a Check Minus (8/10) (unless you are totally absent in which case you will receive a zero). 
+* We probably will only have about 5-6 weeks that are suitable for this model. In the rest of the weeks, we will likely need to switch back to a bi-weekly basis.  
+
+
+---
+# In-class Exercise
+
+A **political ideology** is "a set of ideas, beliefs, values, and opinions, exhibiting a recurring pattern, that competes deliberately as well as unintentionally over providing plans of action for public policy making in an attempt to justify, explain, contest, or change the social and political arrangements and processes of a political community" (Freeden 2001).
+
+Propose three different ways to *operationalize* political ideology such that you could measure an individual voter's ideology. Try to come up with at least one method making use of *readymade* data and at least one method making use of *custommade* data. Think about the pros and cons of each method. Does it really measure ideology or perhaps something else? 
+
+Suggested reading:
+
+Jost, J. T., Federico, C. M., &amp; Napier, J. L. (2009). Political ideology: Its structure, functions, and elective affinities. Annual review of psychology, 60(1), 307-337.
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
