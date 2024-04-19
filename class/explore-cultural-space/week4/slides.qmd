@@ -1,0 +1,111 @@
+---
+title: "Week 4"
+subtitle: "MACS 30405: Exploring Cultural Space <br /> University of Chicago"
+time: "80m"
+format:
+   revealjs:
+      theme: default
+      menu: false
+      transition: slide
+      background-transition: fade
+      controls: false
+      progress: true
+      self-contained: true
+      center: true
+---
+## Annoucement
+* Readings for week 5 are released. 
+
+## Plan for coding exercises
+* Exercise 1 (PCA): released on Mar 29; due on April 18
+* Exercise 2 (FA/CA): released on April 12, due on April 18 (for FA) and/or 25 (for CA)
+* Exercise 3 (Text analysis): to be released on April 17, due on May 2 
+  + If you have taken MACS 60000, next week's content will be a bit repetitive. We can discuss about alternatives. 
+
+# Recap
+
+## Factor analysis 
+* assumes that the data is generated from a few hidden dimensions and seeks to recover the dimensions
+* Mathematical formulation:
+ $$
+ x_1 = \lambda_{11}f_1 + \lambda_{12}f_2 + ... + \lambda_{1m}f_m + e_1 \\
+ x_2 = \lambda_{21}f_2 + \lambda_{22}f_2 + ... + \lambda_{2m}f_m + e_2 \\
+ \vdots\\
+ x_p = \lambda_{p1}f_2 + \lambda_{p2}f_2 + ... + \lambda_{pm}f_m + e_2 \\
+ m < p
+ $$
+ 
+ --- 
+ 
+ * The error terms are idiosyncratic and are uncorrelated among themselves and with any factor.
+ * The factors can be uncorrelated or correlated. 
+ 
+## Factor analysis via PCA approximation 
+ 1. Apply PCA to the dataset 
+ 2. Keep the first $m$ principal components scaled by the square roots of the eigenvalues and treat the rests as idiosyncratic. 
+ 3. Rotate the PC factors according to some criterion. 
+ 
+## Orthogoal rotation 
+ 
+![Jolliffe (2002, 155)](images/varimax.png)
+
+## Oblique rotation
+
+![Jolliffe (2002, 156)](images/oblique.png)
+
+## PCA vs. FA
+:::: {.columns}
+::: {.column width="50%"}
+![](images/pca.png)
+:::
+::: {.column width="50%"}
+![](images/fa.png)
+:::
+::::
+
+## Correspondence analysis
+* Goal: given a count table $\mathbf{X} = [x_{ij}]$, to find row-weight and column-weight vectors $\mathbf{r} \in \mathbb{R}^n$ and $\mathbf{c} \in \mathbb{R}^p$, such that
+
+\begin{equation}
+\begin{aligned}
+r_i &\propto \sum_{j=1}^p\ c_j \frac{x_{ij}}{x_{i\cdot}}, \\
+\text{and } c_j &\propto \sum_{i=1}^n\ r_i \frac{x_{ij}}{x_{\cdot j}}, 
+\end{aligned}
+\end{equation}
+where $x_{i\cdot}$ and $x_{\cdot j}$ are the sums of the $i$th row and the $j$th column, respectively.
+
+## Basic Intuition
+* The rows and columns are mutually defined in the same space.
+  + A row is represented by its weight on all the columns. (A person's cultural taste is defined by the genres he/she likes.)
+  + A column is represented by the contribution of all the rows. (The taste of a genre is represented by the people who like it.)
+  + All positions are estimated at once through matrix decomposition. 
+
+## Multiple correspondence analysis
+* is an extension of CA that applies to multiple categorical variables. 
+* MCA starts with turning individual-level data into an indicator matrix:
+
+## Indicator matrix
+
+|  | ... | Student | ... | Engineer| ... | Comedy | ... | Sci-fi| 
+|---------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+| Individual 1      | ... |  1 |  ...   | 0 | ... | 1 | ... | 0 |
+| ...     | ...  |   ... |  ...   | ... | ... | ... | ... | ... | ... | 
+| Individual $n$      | ...    | 0 | ...   | 1 | ... | 0 | ... | 1 | 
+
+# Coding in Class
+
+# Break
+
+# Let's talk about measurement. 
+
+## Discussion
+* What is the distinction between "deliberative" and "non-deliberative" cognition? 
+* What types of measurement better capture each type of cognition? 
+
+## We will discuss more about using texts as a method next time. 
+
+## Goldberg & Stein (2018)
+
+* How could global cultural patterns emerge without close interaction?
+* Where does dimensional come from? 
+

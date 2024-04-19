@@ -1,0 +1,91 @@
+---
+title: "Week 5"
+subtitle: "MACS 30405: Exploring Cultural Space <br /> University of Chicago"
+time: "80m"
+format:
+   revealjs:
+      theme: default
+      menu: false
+      transition: slide
+      background-transition: fade
+      controls: false
+      progress: true
+      self-contained: true
+      center: true
+---
+
+## Coding exercises
+* Exercise 1 (PCA): released on Mar 29; due on April 18
+* Exercise 2 (FA/CA): released on April 12, due on April 18 (for FA) and/or 25 (for CA)
+* Exercise 3 (Text analysis): released today, due on May 2 
+
+## Possible final project 
+
+Identify, construct, and interpret cultural dimensions using multiple waves of a large-scale social survey. Try to answer the following questions:
+ 
+1. Have the dimensional structures changed over time? Are there persistent dimensional structures over time?  Or, do you observe any emergence or disappearance of dimensions?
+
+---
+
+2. Have any survey items changed their dimensional meanings over time? Which items change their dimensional loadings? Which becomes relevant or irrelevant? Does the change in their relevance change your understanding of the dimensions?
+
+---
+
+3. How have survey respondents changed? Do you observe any social demographic shift associated with any dimensional change?
+Could you explain any dimensional changes in terms of social demographic changes? Or, do you think more is going on in addition to social demographic change?
+
+---
+
+4. Finally, could you summarize the most significant shift that happened in the cultural space? Do you see only particular changes in terms of the dimensional loadings of some specific attitudes/tastes/behaviors whereas the dimensions mostly remain the same? Or, do you see some fundamental realignment of dimensions? 
+
+## Example {.smaller}
+In the United States, Liberals and conservatives used to be neutral in terms of confidence in science. However, survey results show that conservatives have dramatically lost confidence in science in recent decades. Social scientist have pondered two possible ways to explain the phenomenon:
+
+1. How liberals and conservatives think about science has changed.  
+2. What defines liberalism vs. conservatism has changed. 
+
+Could you adjudicate which explanation is more accurate? 
+
+**Reference**: Kozlowski, A. C. (2022). How conservatives lost confidence in science: the role of ideological alignment in political polarization. *Social Forces*, 100(3), 1415-1443.
+
+## Possible data sources
+* General Social Survey 
+* World Value Survey 
+* Survey of Public Participation in the Arts (SPPA).
+
+## Plan for today {.smaller}
+* Structural linguistics
+  + Theory: Saussure
+  + Application: Alexander & Smith (1993)
+* Read for your benefit
+  + Evans & Aceves (2016)
+  + Shannon & Weaver (1949)
+* Basics of text analysis
+  + Overlaps with MACS 60000 (Feel )
+  + Feel free to skip if you have taken the class
+    - But could you apply CA to text analysis? 
+
+# Saussure
+
+## What makes language difficult to study?
+::: {.incremental}
+* Language is acoustic but cannot be reduced to sound.
+* Individual (psychological) and social. 
+* System (synchronic) and history (diachronic)
+:::
+
+
+## Linguistic exchange between two persons
+![](images/conversation1.png){width=45%}
+![](images/conversation2.png){width=45%}
+
+
+## Sign: the arbitrary relationship between signifiers and signified.
+![](images/sign.png)
+
+## Synchronic vs. diachronic linguistics 
+* "Synchronic facts, no matter what they are, evidence a certain regularity but are in no way imperative; diachronic facts, on the contrary, force themselves upon language but are in no way general" (95).
+
+![](images/plural.png)
+# Break
+
